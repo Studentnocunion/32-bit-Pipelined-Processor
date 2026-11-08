@@ -1,0 +1,742 @@
+Startpoint: reset (input port clocked by core_clock)
+Endpoint: PC.pc[10]$_DFFE_PP0P_
+          (removal check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock network delay (propagated)
+   1.000000    1.000000 v input external delay
+   0.000000    1.000000 v reset (in)
+   0.022528    1.022528 v input132/Z (BUF_X1)
+   0.083803    1.106331 ^ _162_/ZN (INV_X1)
+   0.000720    1.107051 ^ PC.pc[10]$_DFFE_PP0P_/RN (DFFR_X1)
+               1.107051   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.037918    0.068898 ^ clkbuf_2_1__f_clk/Z (CLKBUF_X3)
+   0.000287    0.069184 ^ PC.pc[10]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269184   clock uncertainty
+   0.000000    0.269184   clock reconvergence pessimism
+   0.275126    0.544311   library removal time
+               0.544311   data required time
+-----------------------------------------------------------------
+               0.544311   data required time
+              -1.107051   data arrival time
+-----------------------------------------------------------------
+               0.562740   slack (MET)
+
+
+Startpoint: reset (input port clocked by core_clock)
+Endpoint: PC.pc[9]$_DFFE_PP0P_
+          (removal check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock network delay (propagated)
+   1.000000    1.000000 v input external delay
+   0.000000    1.000000 v reset (in)
+   0.022528    1.022528 v input132/Z (BUF_X1)
+   0.083803    1.106331 ^ _162_/ZN (INV_X1)
+   0.000802    1.107133 ^ PC.pc[9]$_DFFE_PP0P_/RN (DFFR_X1)
+               1.107133   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.037918    0.068898 ^ clkbuf_2_1__f_clk/Z (CLKBUF_X3)
+   0.000337    0.069234 ^ PC.pc[9]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269234   clock uncertainty
+   0.000000    0.269234   clock reconvergence pessimism
+   0.275128    0.544362   library removal time
+               0.544362   data required time
+-----------------------------------------------------------------
+               0.544362   data required time
+              -1.107133   data arrival time
+-----------------------------------------------------------------
+               0.562771   slack (MET)
+
+
+Startpoint: reset (input port clocked by core_clock)
+Endpoint: PC.pc[8]$_DFFE_PP0P_
+          (removal check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock network delay (propagated)
+   1.000000    1.000000 v input external delay
+   0.000000    1.000000 v reset (in)
+   0.022528    1.022528 v input132/Z (BUF_X1)
+   0.083803    1.106331 ^ _162_/ZN (INV_X1)
+   0.000904    1.107235 ^ PC.pc[8]$_DFFE_PP0P_/RN (DFFR_X1)
+               1.107235   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.037918    0.068898 ^ clkbuf_2_1__f_clk/Z (CLKBUF_X3)
+   0.000370    0.069267 ^ PC.pc[8]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269267   clock uncertainty
+   0.000000    0.269267   clock reconvergence pessimism
+   0.275131    0.544399   library removal time
+               0.544399   data required time
+-----------------------------------------------------------------
+               0.544399   data required time
+              -1.107235   data arrival time
+-----------------------------------------------------------------
+               0.562837   slack (MET)
+
+
+Startpoint: reset (input port clocked by core_clock)
+Endpoint: PC.pc[11]$_DFFE_PP0P_
+          (removal check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock network delay (propagated)
+   1.000000    1.000000 v input external delay
+   0.000000    1.000000 v reset (in)
+   0.022528    1.022528 v input132/Z (BUF_X1)
+   0.083803    1.106331 ^ _162_/ZN (INV_X1)
+   0.000885    1.107215 ^ PC.pc[11]$_DFFE_PP0P_/RN (DFFR_X1)
+               1.107215   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.037918    0.068898 ^ clkbuf_2_1__f_clk/Z (CLKBUF_X3)
+   0.000319    0.069216 ^ PC.pc[11]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269216   clock uncertainty
+   0.000000    0.269216   clock reconvergence pessimism
+   0.275130    0.544346   library removal time
+               0.544346   data required time
+-----------------------------------------------------------------
+               0.544346   data required time
+              -1.107215   data arrival time
+-----------------------------------------------------------------
+               0.562869   slack (MET)
+
+
+Startpoint: reset (input port clocked by core_clock)
+Endpoint: PC.pc[5]$_DFFE_PP0P_
+          (removal check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock network delay (propagated)
+   1.000000    1.000000 v input external delay
+   0.000000    1.000000 v reset (in)
+   0.022528    1.022528 v input132/Z (BUF_X1)
+   0.083803    1.106331 ^ _162_/ZN (INV_X1)
+   0.001145    1.107476 ^ PC.pc[5]$_DFFE_PP0P_/RN (DFFR_X1)
+               1.107476   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.037918    0.068898 ^ clkbuf_2_1__f_clk/Z (CLKBUF_X3)
+   0.000447    0.069345 ^ PC.pc[5]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269345   clock uncertainty
+   0.000000    0.269345   clock reconvergence pessimism
+   0.275138    0.544483   library removal time
+               0.544483   data required time
+-----------------------------------------------------------------
+               0.544483   data required time
+              -1.107476   data arrival time
+-----------------------------------------------------------------
+               0.562993   slack (MET)
+
+
+Startpoint: reset (input port clocked by core_clock)
+Endpoint: PC.pc[7]$_DFFE_PP0P_
+          (removal check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock network delay (propagated)
+   1.000000    1.000000 v input external delay
+   0.000000    1.000000 v reset (in)
+   0.022528    1.022528 v input132/Z (BUF_X1)
+   0.083803    1.106331 ^ _162_/ZN (INV_X1)
+   0.001722    1.108053 ^ PC.pc[7]$_DFFE_PP0P_/RN (DFFR_X1)
+               1.108053   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038282    0.069261 ^ clkbuf_2_2__f_clk/Z (CLKBUF_X3)
+   0.000522    0.069783 ^ PC.pc[7]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269783   clock uncertainty
+   0.000000    0.269783   clock reconvergence pessimism
+   0.275226    0.545009   library removal time
+               0.545009   data required time
+-----------------------------------------------------------------
+               0.545009   data required time
+              -1.108053   data arrival time
+-----------------------------------------------------------------
+               0.563045   slack (MET)
+
+
+Startpoint: reset (input port clocked by core_clock)
+Endpoint: PC.pc[24]$_DFFE_PP0P_
+          (removal check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock network delay (propagated)
+   1.000000    1.000000 v input external delay
+   0.000000    1.000000 v reset (in)
+   0.022528    1.022528 v input132/Z (BUF_X1)
+   0.083803    1.106331 ^ _162_/ZN (INV_X1)
+   0.001181    1.107512 ^ PC.pc[24]$_DFFE_PP0P_/RN (DFFR_X1)
+               1.107512   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000157    0.069144 ^ PC.pc[24]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269144   clock uncertainty
+   0.000000    0.269144   clock reconvergence pessimism
+   0.275140    0.544284   library removal time
+               0.544284   data required time
+-----------------------------------------------------------------
+               0.544284   data required time
+              -1.107512   data arrival time
+-----------------------------------------------------------------
+               0.563228   slack (MET)
+
+
+Startpoint: reset (input port clocked by core_clock)
+Endpoint: PC.pc[26]$_DFFE_PP0P_
+          (removal check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock network delay (propagated)
+   1.000000    1.000000 v input external delay
+   0.000000    1.000000 v reset (in)
+   0.022528    1.022528 v input132/Z (BUF_X1)
+   0.083803    1.106331 ^ _162_/ZN (INV_X1)
+   0.001247    1.107578 ^ PC.pc[26]$_DFFE_PP0P_/RN (DFFR_X1)
+               1.107578   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000143    0.069130 ^ PC.pc[26]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269130   clock uncertainty
+   0.000000    0.269130   clock reconvergence pessimism
+   0.275142    0.544272   library removal time
+               0.544272   data required time
+-----------------------------------------------------------------
+               0.544272   data required time
+              -1.107578   data arrival time
+-----------------------------------------------------------------
+               0.563306   slack (MET)
+
+
+Startpoint: reset (input port clocked by core_clock)
+Endpoint: PC.pc[6]$_DFFE_PP0P_
+          (removal check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock network delay (propagated)
+   1.000000    1.000000 v input external delay
+   0.000000    1.000000 v reset (in)
+   0.022528    1.022528 v input132/Z (BUF_X1)
+   0.083803    1.106331 ^ _162_/ZN (INV_X1)
+   0.001507    1.107838 ^ PC.pc[6]$_DFFE_PP0P_/RN (DFFR_X1)
+               1.107838   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.037918    0.068898 ^ clkbuf_2_1__f_clk/Z (CLKBUF_X3)
+   0.000426    0.069323 ^ PC.pc[6]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269323   clock uncertainty
+   0.000000    0.269323   clock reconvergence pessimism
+   0.275151    0.544474   library removal time
+               0.544474   data required time
+-----------------------------------------------------------------
+               0.544474   data required time
+              -1.107838   data arrival time
+-----------------------------------------------------------------
+               0.563364   slack (MET)
+
+
+Startpoint: reset (input port clocked by core_clock)
+Endpoint: PC.pc[25]$_DFFE_PP0P_
+          (removal check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock network delay (propagated)
+   1.000000    1.000000 v input external delay
+   0.000000    1.000000 v reset (in)
+   0.022528    1.022528 v input132/Z (BUF_X1)
+   0.083803    1.106331 ^ _162_/ZN (INV_X1)
+   0.001280    1.107611 ^ PC.pc[25]$_DFFE_PP0P_/RN (DFFR_X1)
+               1.107611   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000093    0.069080 ^ PC.pc[25]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269080   clock uncertainty
+   0.000000    0.269080   clock reconvergence pessimism
+   0.275143    0.544223   library removal time
+               0.544223   data required time
+-----------------------------------------------------------------
+               0.544223   data required time
+              -1.107611   data arrival time
+-----------------------------------------------------------------
+               0.563388   slack (MET)
+
+
+Startpoint: PC.pc[28]$_DFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: PC.pc[28]$_DFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000216    0.069203 ^ PC.pc[28]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.090455    0.159658 v PC.pc[28]$_DFFE_PP0P_/Q (DFFR_X1)
+   0.026089    0.185747 v hold262/Z (CLKBUF_X1)
+   0.040128    0.225875 v hold185/Z (CLKBUF_X1)
+   0.025134    0.251009 ^ _174_/Z (XOR2_X1)
+   0.029958    0.280966 ^ hold186/Z (CLKBUF_X1)
+   0.000016    0.280982 ^ PC.pc[28]$_DFFE_PP0P_/D (DFFR_X1)
+               0.280982   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000216    0.069203 ^ PC.pc[28]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269203   clock uncertainty
+   0.000000    0.269203   clock reconvergence pessimism
+   0.008261    0.277464   library hold time
+               0.277464   data required time
+-----------------------------------------------------------------
+               0.277464   data required time
+              -0.280982   data arrival time
+-----------------------------------------------------------------
+               0.003518   slack (MET)
+
+
+Startpoint: PC.pc[29]$_DFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: PC.pc[31]$_DFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000234    0.069222 ^ PC.pc[29]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.090693    0.159915 v PC.pc[29]$_DFFE_PP0P_/Q (DFFR_X1)
+   0.034832    0.194747 v hold224/Z (CLKBUF_X1)
+   0.021468    0.216215 ^ _154_/ZN (NAND4_X1)
+   0.011220    0.227435 v _160_/ZN (NOR3_X1)
+   0.025220    0.252655 ^ _161_/Z (XOR2_X1)
+   0.030426    0.283082 ^ hold168/Z (CLKBUF_X1)
+   0.000040    0.283121 ^ PC.pc[31]$_DFFE_PP0P_/D (DFFR_X1)
+               0.283121   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038282    0.069261 ^ clkbuf_2_2__f_clk/Z (CLKBUF_X3)
+   0.000665    0.069926 ^ PC.pc[31]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269926   clock uncertainty
+   0.000000    0.269926   clock reconvergence pessimism
+   0.008469    0.278395   library hold time
+               0.278395   data required time
+-----------------------------------------------------------------
+               0.278395   data required time
+              -0.283121   data arrival time
+-----------------------------------------------------------------
+               0.004726   slack (MET)
+
+
+Startpoint: PC.pc[8]$_DFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: PC.pc[8]$_DFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.037918    0.068898 ^ clkbuf_2_1__f_clk/Z (CLKBUF_X3)
+   0.000370    0.069267 ^ PC.pc[8]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.091352    0.160619 v PC.pc[8]$_DFFE_PP0P_/Q (DFFR_X1)
+   0.026212    0.186831 v hold268/Z (CLKBUF_X1)
+   0.040618    0.227449 v hold213/Z (CLKBUF_X1)
+   0.026786    0.254234 ^ _140_/ZN (XNOR2_X1)
+   0.028471    0.282706 ^ hold214/Z (CLKBUF_X1)
+   0.000029    0.282734 ^ PC.pc[8]$_DFFE_PP0P_/D (DFFR_X1)
+               0.282734   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.037918    0.068898 ^ clkbuf_2_1__f_clk/Z (CLKBUF_X3)
+   0.000370    0.069267 ^ PC.pc[8]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269267   clock uncertainty
+   0.000000    0.269267   clock reconvergence pessimism
+   0.008274    0.277542   library hold time
+               0.277542   data required time
+-----------------------------------------------------------------
+               0.277542   data required time
+              -0.282734   data arrival time
+-----------------------------------------------------------------
+               0.005193   slack (MET)
+
+
+Startpoint: PC.pc[24]$_DFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: PC.pc[25]$_DFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000157    0.069144 ^ PC.pc[24]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.093276    0.162420 v PC.pc[24]$_DFFE_PP0P_/Q (DFFR_X1)
+   0.035696    0.198116 v hold215/Z (CLKBUF_X1)
+   0.017356    0.215472 ^ _182_/ZN (INV_X1)
+   0.010915    0.226387 v _183_/ZN (NOR3_X1)
+   0.026314    0.252702 ^ _184_/Z (XOR2_X1)
+   0.030552    0.283254 ^ hold178/Z (CLKBUF_X1)
+   0.000035    0.283289 ^ PC.pc[25]$_DFFE_PP0P_/D (DFFR_X1)
+               0.283289   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000093    0.069080 ^ PC.pc[25]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269080   clock uncertainty
+   0.000000    0.269080   clock reconvergence pessimism
+   0.008330    0.277410   library hold time
+               0.277410   data required time
+-----------------------------------------------------------------
+               0.277410   data required time
+              -0.283289   data arrival time
+-----------------------------------------------------------------
+               0.005879   slack (MET)
+
+
+Startpoint: PC.pc[26]$_DFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: PC.pc[27]$_DFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000143    0.069130 ^ PC.pc[26]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.090082    0.159212 v PC.pc[26]$_DFFE_PP0P_/Q (DFFR_X1)
+   0.031610    0.190822 v hold221/Z (CLKBUF_X1)
+   0.028588    0.219410 ^ _175_/ZN (INV_X1)
+   0.011803    0.231213 v _178_/ZN (NOR4_X4)
+   0.023855    0.255068 ^ _179_/Z (XOR2_X2)
+   0.029449    0.284516 ^ hold174/Z (CLKBUF_X1)
+   0.000033    0.284549 ^ PC.pc[27]$_DFFE_PP0P_/D (DFFR_X1)
+               0.284549   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000112    0.069100 ^ PC.pc[27]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269100   clock uncertainty
+   0.000000    0.269100   clock reconvergence pessimism
+   0.008305    0.277404   library hold time
+               0.277404   data required time
+-----------------------------------------------------------------
+               0.277404   data required time
+              -0.284549   data arrival time
+-----------------------------------------------------------------
+               0.007145   slack (MET)
+
+
+Startpoint: PC.pc[5]$_DFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: PC.pc[6]$_DFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.037918    0.068898 ^ clkbuf_2_1__f_clk/Z (CLKBUF_X3)
+   0.000447    0.069345 ^ PC.pc[5]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.091027    0.160372 v PC.pc[5]$_DFFE_PP0P_/Q (DFFR_X1)
+   0.051900    0.212271 v hold207/Z (CLKBUF_X1)
+   0.027465    0.239736 ^ _145_/ZN (NAND4_X1)
+   0.016201    0.255937 v _146_/ZN (XNOR2_X1)
+   0.026289    0.282226 v hold198/Z (CLKBUF_X1)
+   0.000014    0.282241 v PC.pc[6]$_DFFE_PP0P_/D (DFFR_X1)
+               0.282241   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.037918    0.068898 ^ clkbuf_2_1__f_clk/Z (CLKBUF_X3)
+   0.000426    0.069323 ^ PC.pc[6]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269323   clock uncertainty
+   0.000000    0.269323   clock reconvergence pessimism
+   0.005285    0.274608   library hold time
+               0.274608   data required time
+-----------------------------------------------------------------
+               0.274608   data required time
+              -0.282241   data arrival time
+-----------------------------------------------------------------
+               0.007633   slack (MET)
+
+
+Startpoint: PC.pc[14]$_DFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: PC.pc[14]$_DFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000181    0.069169 ^ PC.pc[14]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.095639    0.164808 v PC.pc[14]$_DFFE_PP0P_/Q (DFFR_X1)
+   0.026870    0.191678 v hold265/Z (CLKBUF_X1)
+   0.040816    0.232494 v hold203/Z (CLKBUF_X1)
+   0.026100    0.258595 ^ _210_/ZN (XNOR2_X1)
+   0.028247    0.286841 ^ hold204/Z (CLKBUF_X1)
+   0.000016    0.286857 ^ PC.pc[14]$_DFFE_PP0P_/D (DFFR_X1)
+               0.286857   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000181    0.069169 ^ PC.pc[14]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269169   clock uncertainty
+   0.000000    0.269169   clock reconvergence pessimism
+   0.008264    0.277433   library hold time
+               0.277433   data required time
+-----------------------------------------------------------------
+               0.277433   data required time
+              -0.286857   data arrival time
+-----------------------------------------------------------------
+               0.009425   slack (MET)
+
+
+Startpoint: PC.pc[23]$_DFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: PC.pc[23]$_DFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038282    0.069261 ^ clkbuf_2_2__f_clk/Z (CLKBUF_X3)
+   0.000608    0.069869 ^ PC.pc[23]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.090899    0.160768 v PC.pc[23]$_DFFE_PP0P_/Q (DFFR_X1)
+   0.025518    0.186286 v hold266/Z (CLKBUF_X1)
+   0.046168    0.232453 v hold199/Z (CLKBUF_X1)
+   0.027994    0.260447 ^ _191_/ZN (XNOR2_X1)
+   0.028261    0.288708 ^ hold200/Z (CLKBUF_X1)
+   0.000017    0.288725 ^ PC.pc[23]$_DFFE_PP0P_/D (DFFR_X1)
+               0.288725   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038282    0.069261 ^ clkbuf_2_2__f_clk/Z (CLKBUF_X3)
+   0.000608    0.069869 ^ PC.pc[23]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269869   clock uncertainty
+   0.000000    0.269869   clock reconvergence pessimism
+   0.008348    0.278217   library hold time
+               0.278217   data required time
+-----------------------------------------------------------------
+               0.278217   data required time
+              -0.288725   data arrival time
+-----------------------------------------------------------------
+               0.010508   slack (MET)
+
+
+Startpoint: PC.pc[24]$_DFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: PC.pc[24]$_DFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000157    0.069144 ^ PC.pc[24]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.093276    0.162420 v PC.pc[24]$_DFFE_PP0P_/Q (DFFR_X1)
+   0.035696    0.198116 v hold215/Z (CLKBUF_X1)
+   0.017356    0.215472 ^ _182_/ZN (INV_X1)
+   0.032042    0.247514 ^ hold216/Z (CLKBUF_X1)
+   0.011869    0.259383 v _186_/ZN (XNOR2_X1)
+   0.026497    0.285880 v hold217/Z (CLKBUF_X1)
+   0.000022    0.285902 v PC.pc[24]$_DFFE_PP0P_/D (DFFR_X1)
+               0.285902   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038008    0.068987 ^ clkbuf_2_3__f_clk/Z (CLKBUF_X3)
+   0.000157    0.069144 ^ PC.pc[24]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269144   clock uncertainty
+   0.000000    0.269144   clock reconvergence pessimism
+   0.005279    0.274423   library hold time
+               0.274423   data required time
+-----------------------------------------------------------------
+               0.274423   data required time
+              -0.285902   data arrival time
+-----------------------------------------------------------------
+               0.011478   slack (MET)
+
+
+Startpoint: PC.pc[7]$_DFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: PC.pc[7]$_DFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038282    0.069261 ^ clkbuf_2_2__f_clk/Z (CLKBUF_X3)
+   0.000522    0.069783 ^ PC.pc[7]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.092002    0.161785 v PC.pc[7]$_DFFE_PP0P_/Q (DFFR_X1)
+   0.026281    0.188067 v hold263/Z (CLKBUF_X1)
+   0.044861    0.232927 v hold193/Z (CLKBUF_X1)
+   0.026959    0.259887 ^ _143_/Z (XOR2_X1)
+   0.030133    0.290019 ^ hold194/Z (CLKBUF_X1)
+   0.000017    0.290036 ^ PC.pc[7]$_DFFE_PP0P_/D (DFFR_X1)
+               0.290036   data arrival time
+
+   0.000000    0.000000   clock core_clock (rise edge)
+   0.000000    0.000000   clock source latency
+   0.000000    0.000000 ^ clk (in)
+   0.030980    0.030980 ^ clkbuf_0_clk/Z (CLKBUF_X3)
+   0.038282    0.069261 ^ clkbuf_2_2__f_clk/Z (CLKBUF_X3)
+   0.000522    0.069783 ^ PC.pc[7]$_DFFE_PP0P_/CK (DFFR_X1)
+   0.200000    0.269783   clock uncertainty
+   0.000000    0.269783   clock reconvergence pessimism
+   0.008344    0.278127   library hold time
+               0.278127   data required time
+-----------------------------------------------------------------
+               0.278127   data required time
+              -0.290036   data arrival time
+-----------------------------------------------------------------
+               0.011909   slack (MET)
